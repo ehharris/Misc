@@ -1,0 +1,19 @@
+// Symbol table
+// Scope level 0:
+//	Symbol Name       Page Address
+//	----------------  ------------
+//	Result            3003
+//	Next              303E
+//	BaseCase          3060
+//	Main              3004
+//	Needle            3002
+//	Mid               302A
+//	TheGreatReturno   3062
+//	Finish            3014
+//	negT              302B
+//	Stack             3001
+//	Haystack          3016
+//	BinarySearch      302C
+//	Count             3015
+//	TryLower          3056
+//	CalcOffset        3039
