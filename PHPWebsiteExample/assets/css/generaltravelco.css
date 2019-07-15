@@ -1,0 +1,124 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-top: 40px;
+    margin-bottom 40px;
+    font-family: Arial, Sans-serif;
+    font-size: 19px;
+    min-width: 800px;
+    text-align: center;
+    font-weight: regular;
+    background-color:#064050;
+    color:#E8AB70;
+}
+
+div.jumbotron {
+    font-size: 38px;
+    color:#ffffff;
+    background-color:#084650;
+    background-size: cover;
+    height: 650px;
+    margin-bottom: 0px;
+}
+
+/* HEADER LOGO IMAGE */
+.header img {
+  float: right;
+  width: 120px;
+  background-image: url('http://cs.colostate.edu/~jsearl/ct310/assets/img/logo.png');
+  height: 120px;
+}
+
+ul.special-list {
+    list-style-type: none;
+    margin-left: 85%;
+    padding: 0;
+    width: 120px;
+    background-color: #ffffff;
+}
+
+/* TOP NAV BAR*/
+div.top-navbar{
+    overflow: hidden;
+    position: fixed;
+    display: table-row;
+    top:0;
+    width: 100%;
+    background-color: #E8AB70;
+    text-align:center;
+}
+
+/* NAV BAR LINKS */
+div.top-navbar a{
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* NAV BAR HOVER */
+div.top-navbar a:hover {
+    background-color: #53C7E9;
+    color: #9C6128;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    font-size: 10px;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+}
+
+a.citation-link {
+    float: clear;
+    font-size: 10px;
+    text-align: center;
+}
+
+/*Outline text*/
+.strokeme {
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+form {
+    color: black;
+}
+
+li a {
+    text-align:center;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    max-width: 50%;
+}
+
+div.comments{
+    width: 100%;    
+    margin-left: 5px;
+    text-align: left;
+}
+
+label {
+    color:white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}

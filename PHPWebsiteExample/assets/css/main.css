@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	overflow: hidden;
+}
+
+body{
+	background-color: #ddddff;
+}
+
+h1{
+	font-size: 3em;
+	padding: 5px 5px 5px 10px;
+}
+
+h2{
+	background-color: #ddddff;
+	padding: 5px;
+}
+
+.h2Content{
+	padding: 5px 5px 5px 10px;
+}
+
+#head{
+	width: 100%;
+
+}
+
+#mainContent{
+	background-color: white;
+	border-top: 1px solid #9999ff;
+	height: 100%;
+	padding: 5px;
+	overflow: scroll;
+}
+
+#footer{
+	height: 20px;
+	position: fixed;
+	bottom: 4px;
+	width: 100%;
+	text-align: center;
+	background-color: #ddddff;
+	border-top: 1px solid #9999ff;
+}
+
+.floatRight{
+	float: right;
+}
+
+.floatClear{
+	float: clear;
+}
